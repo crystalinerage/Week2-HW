@@ -152,6 +152,149 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/assets\/boot1.jpeg" : {
+      "ft" : 16384,
+      "iS" : 11451,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/assets\/boot1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/assets\/boot2.png" : {
+      "ft" : 32768,
+      "iS" : 58610,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/assets\/boot2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/assets\/coat1.jpg" : {
+      "ft" : 16384,
+      "iS" : 210211,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/assets\/coat1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/assets\/gear1.png" : {
+      "ft" : 32768,
+      "iS" : 43424,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/assets\/gear1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/deploy\/img\/assets\/gear2.jpg" : {
+      "ft" : 16384,
+      "iS" : 56604,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/assets\/gear2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/assets\/gear3.jpg" : {
+      "ft" : 16384,
+      "iS" : 124986,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/assets\/gear3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/assets\/gear4.jpg" : {
+      "ft" : 16384,
+      "iS" : 186646,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/assets\/gear4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/assets\/gear5.jpg" : {
+      "ft" : 16384,
+      "iS" : 19509,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/assets\/gear5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/assets\/hero1.jpg" : {
+      "ft" : 16384,
+      "iS" : 1078761,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/assets\/hero1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/assets\/jacket2.jpg" : {
+      "ft" : 16384,
+      "iS" : 75833,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/assets\/jacket2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/assets\/pants1.jpg" : {
+      "ft" : 16384,
+      "iS" : 43247,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/assets\/pants1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/dev\/content\/footer.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -184,28 +327,12 @@
       "oAP" : "\/dev\/content\/hero.html",
       "oF" : 0
     },
-    "\/dev\/content\/product-cards.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/product-cards.html",
-      "oF" : 0
-    },
     "\/dev\/content\/product-cards.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/product-cards.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/suggested.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/suggested.html",
       "oF" : 0
     },
     "\/dev\/content\/suggested.kit" : {
@@ -224,14 +351,6 @@
       "oAP" : "\/dev\/global\/head.html",
       "oF" : 0
     },
-    "\/dev\/global\/header.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/global\/header.html",
-      "oF" : 0
-    },
     "\/dev\/global\/header.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -240,20 +359,20 @@
       "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
-    "\/dev\/global\/scripts.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/global\/scripts.html",
-      "oF" : 0
-    },
     "\/dev\/global\/scripts.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/scripts.html",
+      "oF" : 0
+    },
+    "\/dev\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/index.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
