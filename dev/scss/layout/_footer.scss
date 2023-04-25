@@ -2,5 +2,11 @@
     Footer
 ============= */
 footer{
-    
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-area: ". footer .";
+
+    >div{
+        grid-area: footer;
+    }
 }

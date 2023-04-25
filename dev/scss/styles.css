@@ -373,12 +373,39 @@ textarea {
 /* =============
     Footer
 ============= */
+footer {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-area: ". footer .";
+}
+footer > div {
+  grid-area: footer;
+}
+
 /* =============
     Hero
 ============= */
+#hero {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-area: ". hero .";
+}
+#hero > div {
+  grid-area: hero;
+}
+
 /* =============
     Gallery
 ============= */
+#gallery {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-area: ". gallery .";
+}
+#gallery > div {
+  grid-area: gallery;
+}
+
 /* =============
     suggested
 ============= */
