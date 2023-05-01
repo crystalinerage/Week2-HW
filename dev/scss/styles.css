@@ -404,11 +404,29 @@ footer > div {
 }
 #gallery > div {
   grid-area: gallery;
+  background-color: darkslategray;
 }
 
 /* =============
     suggested
 ============= */
+#suggested {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-area: ". suggested .";
+}
+#suggested > div {
+  grid-area: suggested;
+}
+
 /* =============
     product cards
 ============= */
+#product-cards {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-area: ". product-cards .";
+}
+#product-cards > div {
+  grid-area: product cards;
+}
