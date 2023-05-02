@@ -11,5 +11,25 @@
         grid-area: gallery;
         background-color: darkslategray;
         
+        ul{
+            margin: 0;
+            padding: 0;
+                  @include md{
+                    display: grid;
+                    grid-template-columns: 50% auto;
+                    gap: 16px;
+
+                  }
+
+
+            li{
+                list-style: none;
+                background: var(darkslategray);
+                padding-top: 150px;
+                padding-bottom: 150px;
+                width: 100%;
+                text-align: center;
+            }
+        }
     }
 }

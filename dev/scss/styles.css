@@ -406,6 +406,25 @@ footer > div {
   grid-area: gallery;
   background-color: darkslategray;
 }
+#gallery > div ul {
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 768px) {
+  #gallery > div ul {
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 16px;
+  }
+}
+#gallery > div ul li {
+  list-style: none;
+  background: var(darkslategray);
+  padding-top: 150px;
+  padding-bottom: 150px;
+  width: 100%;
+  text-align: center;
+}
 
 /* =============
     suggested
