@@ -366,8 +366,18 @@ textarea {
   grid-template-columns: 16px auto 16px;
   grid-area: ". header .";
 }
+@media xxl {
+  #header {
+    display: grid;
+    grid-template-columns: auto, 1440, auto;
+  }
+}
 #header > div {
   grid-area: header;
+  background-color: darkolivegreen;
+  color: var(white);
+  padding: 50px 0;
+  text-align: center;
 }
 
 /* =============
