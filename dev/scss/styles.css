@@ -366,10 +366,11 @@ textarea {
   grid-template-columns: 16px auto 16px;
   grid-area: ". header .";
 }
-@media xxl {
+@media (min-width: screen-xxl-min) {
   #header {
     display: grid;
     grid-template-columns: auto, 1440, auto;
+    grid-template-areas: ". header .";
   }
 }
 #header > div {
@@ -378,6 +379,11 @@ textarea {
   color: var(white);
   padding: 50px 0;
   text-align: center;
+}
+@media (min-width: screen-xxl-min) {
+  #header > div {
+    grid-area: header;
+  }
 }
 
 /* =============
@@ -388,8 +394,24 @@ footer {
   grid-template-columns: 16px auto 16px;
   grid-area: ". footer .";
 }
+@media (min-width: screen-xxl-min) {
+  footer {
+    display: grid;
+    grid-template-columns: auto, 1440, auto;
+    grid-template-areas: ". footer .";
+  }
+}
 footer > div {
   grid-area: footer;
+  background-color: darkgreen;
+  color: var(white);
+  padding: 50px 0;
+  text-align: center;
+}
+@media (min-width: screen-xxl-min) {
+  footer > div {
+    grid-area: footer;
+  }
 }
 
 /* =============

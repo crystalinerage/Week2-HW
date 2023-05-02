@@ -4,9 +4,10 @@
 
 #header{
 
-    @media xxl{
+    @include xxl{
         display: grid;
         grid-template-columns: auto, 1440, auto;
+        grid-template-areas: ". header .";
     }
 
     display: grid;
@@ -19,5 +20,9 @@
         color: var(white);
         padding: 50px 0;
         text-align: center;
+
+        @include xxl{
+            grid-area: header;
+        }
     }
 }
