@@ -380,8 +380,7 @@ header .top {
 }
 header nav {
   grid-area: header;
-  background-color: white;
-  color: var(lightgreen);
+  background-color: lightpink;
   padding: 50px 0;
   text-align: center;
   text-decoration: underline;
