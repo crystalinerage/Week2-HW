@@ -381,7 +381,7 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dev\/index.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
@@ -648,8 +648,8 @@
   },
   "projectAttributes" : {
     "creationDate" : 703482550.55737305,
-    "displayValue" : "Week2-HW",
-    "displayValueWasSetByUser" : 0,
+    "displayValue" : "Web3",
+    "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets_magenta",
     "iconImageWasSetByUser" : 0
   },
