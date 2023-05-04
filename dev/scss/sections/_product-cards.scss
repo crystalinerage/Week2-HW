@@ -5,7 +5,7 @@
 #product-cards{
     display: grid;
     grid-template-columns: 16px auto 16px;
-    grid-area: ". product-cards .";
+    grid-template-areas: ". product-cards .";
 
     >div{
         grid-area: product cards;
