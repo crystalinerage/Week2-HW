@@ -434,7 +434,7 @@ footer > div {
 #hero {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-area: ". hero .";
+  grid-template-areas: ". hero .";
 }
 #hero > div {
   grid-area: hero;
