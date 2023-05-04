@@ -14,12 +14,24 @@
     grid-template-columns: 16px auto 16px;
     grid-area: ". header .";
 
-    >div{
+    .top{
         grid-area: header;
         background-color: darkolivegreen;
         color: var(white);
         padding: 50px 0;
         text-align: center;
+
+        @include xxl{
+            grid-area: header;
+        }
+    }
+    nav{
+        grid-area: header;
+        background-color: white;
+        color: var(lightgreen);
+        padding: 50px 0;
+        text-align: center;
+        text-decoration: underline;
 
         @include xxl{
             grid-area: header;
