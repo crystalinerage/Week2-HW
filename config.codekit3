@@ -7,7 +7,7 @@
       "uuidString" : "A2CAF276-3790-4CED-91A6-F57D0DB66B38"
     }
   ],
-  "creatorBuild" : "34472",
+  "creatorBuild" : "34484",
   "files" : {
     "\/Assets\/boot1.jpeg" : {
       "ft" : 16384,
@@ -257,55 +257,63 @@
     },
     "\/deploy\/img\/assets\/gear5.jpg" : {
       "ft" : 16384,
-      "iS" : 19509,
+      "iS" : 19415,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/assets\/gear5.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/assets\/hero1.jpg" : {
       "ft" : 16384,
-      "iS" : 1078761,
+      "iS" : 1040499,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/assets\/hero1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/assets\/jacket2.jpg" : {
       "ft" : 16384,
-      "iS" : 75833,
+      "iS" : 75826,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/assets\/jacket2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/assets\/pants1.jpg" : {
       "ft" : 16384,
-      "iS" : 43247,
+      "iS" : 43239,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/assets\/pants1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 0
     },
     "\/dev\/content\/footer.html" : {
       "cB" : 0,
@@ -392,8 +400,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 3
     },
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
@@ -614,8 +622,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -648,8 +656,8 @@
   },
   "projectAttributes" : {
     "creationDate" : 703482550.55737305,
-    "displayValue" : "Week2-HW",
-    "displayValueWasSetByUser" : 0,
+    "displayValue" : "Web3",
+    "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets_magenta",
     "iconImageWasSetByUser" : 0
   },
@@ -2165,7 +2173,7 @@
       "moduleType" : 2,
       "removeComments" : 0,
       "sourceMapStyle" : 0,
-      "targetECMAVersion" : 0
+      "targetECMAVersion" : 2018
     },
     "languageDefaultsUserDefined" : [
 
@@ -2221,7 +2229,10 @@
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
+    "tsAllowArbitraryExtensions" : 0,
+    "tsAllowImportingTSExtensions" : 0,
     "tsAllowSyntheticDefaultImports" : 0,
+    "tsAllowUMDGlobalAccess" : 0,
     "tsAllowUnreachableCode" : 0,
     "tsAllowUnusedLabels" : 0,
     "tsAlwaysStrict" : 0,
@@ -2230,36 +2241,36 @@
     "tsEmitDecoratorMetadata" : 0,
     "tsESModuleInterop" : 0,
     "tsExactOptionalPropertyTypes" : 0,
+    "tsExperimentalDecorators" : 0,
     "tsForceConsistentCasingInFileNames" : 0,
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
-    "tsKeyofStringsOnly" : 0,
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
     "tsNoImplicitOverride" : 0,
     "tsNoImplicitReturns" : 0,
     "tsNoImplicitThis" : 0,
-    "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
     "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
-    "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
     "tsNoUnusedLocals" : 0,
     "tsNoUnusedParameters" : 0,
     "tsPreserveConstEnums" : 0,
     "tsPreserveSymlinks" : 0,
     "tsResolveJsonModule" : 0,
+    "tsSkipDefaultLibCheck" : 0,
     "tsSkipLibCheck" : 0,
+    "tsStrictBindCallApply" : 0,
     "tsStrictFunctionTypes" : 0,
     "tsStrictNullChecks" : 0,
     "tsStrictPropertyInitialization" : 0,
     "tsStripInternal" : 0,
-    "tsSuppressExcessPropertyErrors" : 0,
-    "tsSuppressImplicitAnyIndexErrors" : 0,
+    "tsUseDefineForClassFields" : 0,
     "tsUseUnknownInCatchVariables" : 0,
+    "tsVerbatimModuleSyntax" : 0,
     "uglifyDefinesString" : "",
     "uglifyFlags2" : {
       "arguments" : {
