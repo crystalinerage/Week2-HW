@@ -371,8 +371,17 @@ textarea {
 header {
   background-color: var(--forestGreen);
   display: grid;
-  grid-template-columns: 16px, auto, 16px;
-  grid-template-areas: ". header .;";
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". header .";
+}
+header > div {
+  grid-area: header;
+}
+header > div h1 {
+  color: var(--cream);
+}
+header > div p {
+  color: var(--cream);
 }
 
 /* =============

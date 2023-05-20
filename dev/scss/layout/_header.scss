@@ -4,6 +4,19 @@
 header{
     background-color: var(--forestGreen);
     display: grid;
-    grid-template-columns: 16px, auto, 16px;
-    grid-template-areas: ". header .;"
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". header .";
+
+
+
+    >div{
+        grid-area: header;
+        h1{
+            color: var(--cream);
+        }
+        p{
+            color: var(--cream);
+        }
+    
+    }
 }
