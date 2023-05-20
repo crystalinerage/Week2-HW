@@ -402,7 +402,7 @@ footer {
   grid-template-columns: 16px auto 16px;
 }
 footer > div {
-  grid-area: header;
+  grid-area: footer;
 }
 footer > div h1 {
   color: var(--cream);
@@ -427,6 +427,16 @@ footer > div p {
 /* =============
     Product cards
 ============= */
+#product-cards {
+  background-color: var(--cream);
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". product-cards .";
+}
+#product-cards > div {
+  grid-area: product-cards;
+}
+
 /* =============
     Suggested
 ============= */
