@@ -2,21 +2,44 @@
     Header
 ============= */
 header{
+
+    #logo-nav{
+        background-color: var(--forestGreen);
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". logo-nav .";
+    
+    
+    
+        >div{
+       
+            grid-area: logo-nav;
+            h1{
+                color: var(--cream);
+            }
+            p{
+                color: var(--cream);
+            } 
+    }
+
+}
+
+
+
+#form-content{
     background-color: var(--forestGreen);
     display: grid;
     grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". header .";
-
-
-
+    grid-template-areas: ". search .";
     >div{
-        grid-area: header;
+     background-color: var(--cream);
+        grid-area: search;
         h1{
             color: var(--cream);
         }
         p{
             color: var(--cream);
-        }
-    
+        } 
     }
+}
 }

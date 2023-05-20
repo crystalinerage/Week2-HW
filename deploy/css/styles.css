@@ -377,19 +377,35 @@ textarea {
 /* =============
     Header
 ============= */
-header {
+header #logo-nav {
   background-color: var(--forestGreen);
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". header .";
+  grid-template-areas: ". logo-nav .";
 }
-header > div {
-  grid-area: header;
+header #logo-nav > div {
+  grid-area: logo-nav;
 }
-header > div h1 {
+header #logo-nav > div h1 {
   color: var(--cream);
 }
-header > div p {
+header #logo-nav > div p {
+  color: var(--cream);
+}
+header #form-content {
+  background-color: var(--forestGreen);
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". search .";
+}
+header #form-content > div {
+  background-color: var(--cream);
+  grid-area: search;
+}
+header #form-content > div h1 {
+  color: var(--cream);
+}
+header #form-content > div p {
   color: var(--cream);
 }
 
