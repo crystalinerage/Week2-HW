@@ -164,12 +164,12 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/assets\/boot1.jpeg" : {
+    "\/deploy\/img\/boot1.jpeg" : {
       "ft" : 16384,
       "iS" : 11451,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/assets\/boot1.jpg",
+      "oAP" : "\/deploy\/img\/boot1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -177,11 +177,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/assets\/boot2.png" : {
+    "\/deploy\/img\/boot2.png" : {
       "ft" : 32768,
       "iS" : 58610,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/assets\/boot2.png",
+      "oAP" : "\/deploy\/img\/boot2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -190,12 +190,12 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/assets\/coat1.jpg" : {
+    "\/deploy\/img\/coat1.jpg" : {
       "ft" : 16384,
       "iS" : 210211,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/assets\/coat1.jpg",
+      "oAP" : "\/deploy\/img\/coat1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -203,11 +203,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/assets\/gear1.png" : {
+    "\/deploy\/img\/gear1.png" : {
       "ft" : 32768,
       "iS" : 43424,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/assets\/gear1.png",
+      "oAP" : "\/deploy\/img\/gear1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -216,12 +216,12 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/deploy\/img\/assets\/gear2.jpg" : {
+    "\/deploy\/img\/gear2.jpg" : {
       "ft" : 16384,
       "iS" : 56604,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/assets\/gear2.jpg",
+      "oAP" : "\/deploy\/img\/gear2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -229,12 +229,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/assets\/gear3.jpg" : {
+    "\/deploy\/img\/gear3.jpg" : {
       "ft" : 16384,
       "iS" : 124986,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/assets\/gear3.jpg",
+      "oAP" : "\/deploy\/img\/gear3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -242,12 +242,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/assets\/gear4.jpg" : {
+    "\/deploy\/img\/gear4.jpg" : {
       "ft" : 16384,
       "iS" : 186646,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/assets\/gear4.jpg",
+      "oAP" : "\/deploy\/img\/gear4.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -255,12 +255,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/assets\/gear5.jpg" : {
+    "\/deploy\/img\/gear5.jpg" : {
       "ft" : 16384,
       "iS" : 19415,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/assets\/gear5.jpg",
+      "oAP" : "\/deploy\/img\/gear5.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -268,12 +268,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/assets\/hero1.jpg" : {
+    "\/deploy\/img\/hero1.jpg" : {
       "ft" : 16384,
       "iS" : 1040499,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/assets\/hero1.jpg",
+      "oAP" : "\/deploy\/img\/hero1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -281,12 +281,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/assets\/jacket2.jpg" : {
+    "\/deploy\/img\/jacket2.jpg" : {
       "ft" : 16384,
       "iS" : 75826,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/assets\/jacket2.jpg",
+      "oAP" : "\/deploy\/img\/jacket2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -294,12 +294,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/assets\/pants1.jpg" : {
+    "\/deploy\/img\/pants1.jpg" : {
       "ft" : 16384,
       "iS" : 43239,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/assets\/pants1.jpg",
+      "oAP" : "\/deploy\/img\/pants1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
