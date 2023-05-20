@@ -3,19 +3,31 @@
 ============= */
 
 #suggested{
-    background-color: var(--forestGreen);
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". suggested .";
-
-    >div{
-        grid-area: suggested;
-        grid-template-columns: 70% auto;
-        h1{
-            color: var(--cream);
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+    gap: 16px;
+    .button{
+        background-color: var(--forestGreen);
+        display: grid;
+        grid-template-columns: 60% 40%;
+        height: 117px;
+        #text{
+            display: flex;
+            flex-direction: column;
+            h1{
+                color: var(--cream);
+                font-size: large;
+            }
+            a{
+                width: fit-content;
+                padding: 8px;
+                color: var(--cream);
+                background-color: var(--sage);
+            }
         }
-        p{
-            color: var(--cream);
+        img{
+            height: inherit;
         }
     
     }

@@ -481,18 +481,31 @@ footer > div p {
     Suggested
 ============= */
 #suggested {
+  display: flex;
+  flex-direction: row;
+  margin: 16px;
+  gap: 16px;
+}
+#suggested .button {
   background-color: var(--forestGreen);
   display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". suggested .";
+  grid-template-columns: 60% 40%;
+  height: 117px;
 }
-#suggested > div {
-  grid-area: suggested;
-  grid-template-columns: 70% auto;
+#suggested .button #text {
+  display: flex;
+  flex-direction: column;
 }
-#suggested > div h1 {
+#suggested .button #text h1 {
   color: var(--cream);
+  font-size: large;
 }
-#suggested > div p {
+#suggested .button #text a {
+  width: fit-content;
+  padding: 8px;
   color: var(--cream);
+  background-color: var(--sage);
+}
+#suggested .button img {
+  height: inherit;
 }
