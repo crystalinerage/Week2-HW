@@ -10,6 +10,7 @@
 
     >div{
         grid-area: suggested;
+        grid-template-columns: 70% auto;
         h1{
             color: var(--cream);
         }

@@ -485,6 +485,7 @@ header #form-content > div p {
 }
 #suggested > div {
   grid-area: suggested;
+  grid-template-columns: 70% auto;
 }
 #suggested > div h1 {
   color: var(--cream);
