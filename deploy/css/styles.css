@@ -431,12 +431,30 @@ header #form-content > div p {
 /* =============
     hero
 ============= */
-#hero {
+#hero section {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". hero .";
   background-color: green;
+}
+#hero section > div {
+  grid-area: hero;
 }
 
 #sub-hero {
   background-color: var(--lightPink);
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". sub-hero .";
+}
+#sub-hero > div {
+  grid-area: sub-hero;
+}
+#sub-hero > div h1 {
+  color: var(--cream);
+}
+#sub-hero > div p {
+  color: var(--cream);
 }
 
 /* =============
