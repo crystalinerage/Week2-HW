@@ -3,17 +3,6 @@
 ============= */
 
 #hero{
-    background-color: var(--lightPink);
-    section{
-
-        display: grid;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". hero-sub ." ;
-
-        >div{
-            grid-area: hero-sub;
-        }
-    }
-
+background-color: green;
 }
 

@@ -434,15 +434,7 @@ footer > div p {
     hero
 ============= */
 #hero {
-  background-color: var(--lightPink);
-}
-#hero section {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". hero-sub .";
-}
-#hero section > div {
-  grid-area: hero-sub;
+  background-color: green;
 }
 
 /* =============
@@ -466,7 +458,7 @@ footer > div p {
     Suggested
 ============= */
 #suggested {
-  background-color: var(--forestGreen);
+  background-color: var(--lightPink);
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". suggested .";
