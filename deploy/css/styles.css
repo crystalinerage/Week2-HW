@@ -438,26 +438,60 @@ footer > div p {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". hero .";
-  background-color: green;
 }
 #hero section > div {
   grid-area: hero;
 }
 
 #sub-hero {
+  display: flex;
+  flex-direction: column;
+}
+#sub-hero .styles {
   background-color: var(--lightPink);
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". sub-hero .";
 }
-#sub-hero > div {
-  grid-area: sub-hero;
-}
-#sub-hero > div h1 {
+#sub-hero .styles h1 {
   color: var(--cream);
+  padding: 8px;
+  font-size: medium;
 }
-#sub-hero > div p {
+#sub-hero .styles p {
   color: var(--cream);
+  padding: 8px;
+  font-size: small;
+}
+#sub-hero .styles a {
+  width: fit-content;
+  padding: 8px;
+  color: var(--cream);
+  background-color: var(--sage);
+  font-size: small;
+}
+#sub-hero .new {
+  background-color: var(--dustyPink);
+}
+#sub-hero .new h1 {
+  color: var(--cream);
+  padding: 8px;
+  font-size: medium;
+}
+#sub-hero .new p {
+  color: var(--cream);
+  padding: 8px;
+  font-size: small;
+}
+#sub-hero .new a {
+  width: fit-content;
+  padding: 8px;
+  color: var(--cream);
+  background-color: var(--sage);
+  font-size: small;
+}
+@media (min-width: 768px) {
+  #sub-hero {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 /* =============

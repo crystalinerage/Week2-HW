@@ -7,7 +7,6 @@
         display: grid;
         grid-template-columns: 16px auto 16px;
         grid-template-areas: ". hero .";
-        background-color: green;
 
         >div{
             grid-area: hero;
@@ -18,19 +17,62 @@
 
 
 #sub-hero{
-    background-color: var(--lightPink);
-        display: grid;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". sub-hero .";
 
-        >div{
-            grid-area: sub-hero;
+        display: flex;
+        flex-direction: column;
+  
+
+        .styles{
+            background-color: var(--lightPink);
             h1{
                 color: var(--cream);
+                padding: 8px;
+                font-size: medium;
             }
             p{
                 color: var(--cream);
+                padding: 8px;
+                font-size: small;
             }
+
+            a{
+                width: fit-content;
+                padding: 8px;
+                color: var(--cream);
+                background-color: var(--sage);
+                font-size: small;
+     
+            }
+        }
+
+
+        .new{
+            background-color: var(--dustyPink);
+
+            h1{
+                color: var(--cream);
+                padding: 8px;
+                font-size: medium;
+            }
+            p{
+                color: var(--cream);
+                padding: 8px;
+                font-size: small;
+            }
+
+            a{
+                width: fit-content;
+                padding: 8px;
+                color: var(--cream);
+                background-color: var(--sage);
+                font-size: small;
+         
+            }
+        }
+
+        @include md{
+            flex-direction: row;
+            justify-content: space-between;
         }
     }
     
