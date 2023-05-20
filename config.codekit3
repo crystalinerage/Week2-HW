@@ -315,22 +315,6 @@
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
-    "\/dev\/content\/footer.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/footer.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/footer.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/footer.html",
-      "oF" : 0
-    },
     "\/dev\/content\/gallery.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -361,6 +345,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/suggested.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/footer.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {

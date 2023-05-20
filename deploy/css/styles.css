@@ -412,22 +412,20 @@ header #form-content > div p {
 /* =============
     Footer
 ============= */
-footer {
-  background-color: var(--forestGreen);
+#footer {
   display: grid;
   grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". footer .";
+  background-color: var(--forestGreen);
 }
-footer > div {
+#footer > div {
   grid-area: footer;
 }
-footer > div h1 {
+#footer > div h1 {
   color: var(--cream);
 }
-footer > div h2 {
-  color: var(--sage);
-}
-footer > div p {
-  color: var(--sage);
+#footer > div p {
+  color: var(--cream);
 }
 
 /* =============
@@ -435,6 +433,10 @@ footer > div p {
 ============= */
 #hero {
   background-color: green;
+}
+
+#sub-hero {
+  background-color: var(--lightPink);
 }
 
 /* =============
@@ -458,7 +460,7 @@ footer > div p {
     Suggested
 ============= */
 #suggested {
-  background-color: var(--lightPink);
+  background-color: var(--forestGreen);
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". suggested .";
