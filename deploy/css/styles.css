@@ -413,6 +413,7 @@ header #form-content > div p {
     Footer
 ============= */
 #footer {
+  background-color: var(--forestGreen);
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
