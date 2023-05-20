@@ -380,6 +380,10 @@ header {
 /* =============
     hero
 ============= */
+#hero {
+  background-color: green;
+}
+
 /* =============
     gallery
 ============= */
