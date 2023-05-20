@@ -4,14 +4,16 @@
 
 #suggested{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 16px;
     gap: 16px;
+    justify-content:center ;
     .button{
         background-color: var(--forestGreen);
         display: grid;
         grid-template-columns: 60% 40%;
         height: 117px;
+        padding: 16px;
         #text{
             display: flex;
             flex-direction: column;
@@ -30,5 +32,8 @@
             height: inherit;
         }
     
+    }
+    @include md{
+        flex-direction: row;
     }
     }

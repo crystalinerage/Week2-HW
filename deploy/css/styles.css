@@ -482,15 +482,17 @@ footer > div p {
 ============= */
 #suggested {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 16px;
   gap: 16px;
+  justify-content: center;
 }
 #suggested .button {
   background-color: var(--forestGreen);
   display: grid;
   grid-template-columns: 60% 40%;
   height: 117px;
+  padding: 16px;
 }
 #suggested .button #text {
   display: flex;
@@ -508,4 +510,9 @@ footer > div p {
 }
 #suggested .button img {
   height: inherit;
+}
+@media (min-width: 768px) {
+  #suggested {
+    flex-direction: row;
+  }
 }
