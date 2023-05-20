@@ -435,6 +435,7 @@ footer > div p {
 }
 #product-cards > div {
   grid-area: product-cards;
+  text-align: justify;
 }
 
 /* =============
