@@ -3,5 +3,19 @@
 ============= */
 
 #suggested{
+    background-color: var(--lightPink);
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". suggested .";
+
+    >div{
+        grid-area: suggested;
+        h1{
+            color: var(--cream);
+        }
+        p{
+            color: var(--cream);
+        }
     
-}
+    }
+    }
