@@ -3,5 +3,22 @@
 ============= */
 
 footer{
+    background-color: var(--forestGreen);
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+   
+
+    >div{
+        grid-area: header;
+        h1{
+            color: var(--cream);
+        }
+        h2{
+            color: var(--sage);
+        }
+        p{
+            color: var(--sage);
+        }
     
+    }
 }
