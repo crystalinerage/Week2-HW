@@ -18,8 +18,8 @@
 
 #sub-hero{
 
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 100%;
   
 
         .styles{
@@ -71,8 +71,8 @@
         }
 
         @include md{
-            flex-direction: row;
-            justify-content: space-between;
+            grid-template-columns: 50% 50%;
+            justify-content: center;
         }
     }
     

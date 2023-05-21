@@ -15,3 +15,20 @@
 .large-images{
     width: 100%;
 }
+
+
+
+.show-large{
+    display: none;
+    @include lg{
+        display: block;
+    }
+}
+
+
+.show-extra-large{
+    display: none;
+    @include xl{
+        display: block;
+    }
+}

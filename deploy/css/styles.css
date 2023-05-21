@@ -347,6 +347,24 @@ template {
   width: 100%;
 }
 
+.show-large {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .show-large {
+    display: block;
+  }
+}
+
+.show-extra-large {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .show-extra-large {
+    display: block;
+  }
+}
+
 /* =============
     Typography
 ============= */
@@ -444,8 +462,8 @@ footer > div p {
 }
 
 #sub-hero {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 100%;
 }
 #sub-hero .styles {
   background-color: var(--lightPink);
@@ -489,14 +507,44 @@ footer > div p {
 }
 @media (min-width: 768px) {
   #sub-hero {
-    flex-direction: row;
-    justify-content: space-between;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
   }
 }
 
 /* =============
     gallery
 ============= */
+@media (min-width: 1024px) {
+  #gallery {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". gallery .";
+  }
+}
+#gallery ul {
+  list-style-type: none;
+}
+@media (min-width: 768px) {
+  #gallery ul {
+    grid-area: gallery;
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
+@media (min-width: 1024px) {
+  #gallery ul {
+    grid-area: gallery;
+    grid-template-columns: 60% auto;
+  }
+}
+@media (min-width: 1440px) {
+  #gallery ul {
+    grid-template-columns: 60% auto;
+    grid-template-areas: "g1 g2" "g1 g3";
+  }
+}
+
 /* =============
     Product cards
 ============= */
