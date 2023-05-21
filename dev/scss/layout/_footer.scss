@@ -8,7 +8,9 @@ footer{
     grid-template-areas: ". footer .";
     background-color: var(--forestGreen);
 
-
+@include xxl{
+    grid-template-columns: auto 1200px auto;
+}
     >div{
 
         grid-area: footer;
@@ -21,6 +23,11 @@ footer{
         p{
             color: var(--sage);
         } 
+
+        @include md{
+            display: grid;
+            grid-template-columns: 50% auto;
+        }
 }
 
 }

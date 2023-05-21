@@ -436,6 +436,11 @@ footer {
   grid-template-areas: ". footer .";
   background-color: var(--forestGreen);
 }
+@media (min-width: 1440px) {
+  footer {
+    grid-template-columns: auto 1200px auto;
+  }
+}
 footer > div {
   grid-area: footer;
 }
@@ -447,6 +452,12 @@ footer > div h2 {
 }
 footer > div p {
   color: var(--sage);
+}
+@media (min-width: 768px) {
+  footer > div {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
 }
 
 /* =============
