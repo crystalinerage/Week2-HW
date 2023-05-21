@@ -30,5 +30,24 @@ grid-template-columns: 50% auto;
             "g1 g3";
 
         }
+
+        #g1{
+            @include xxl{
+                grid-area: g1;
+            }
+        }
+        
+        #g2{
+            @include xxl{
+                grid-area: g2;
+            }
+            #g3{
+                @include xxl{
+                    grid-area: g3;
+                }
     }
 }
+}
+   
+}
+   

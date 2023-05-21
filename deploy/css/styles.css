@@ -469,12 +469,12 @@ footer > div p {
   background-color: var(--lightPink);
 }
 #sub-hero .styles h1 {
-  color: var(--cream);
+  color: white;
   padding: 8px;
   font-size: medium;
 }
 #sub-hero .styles p {
-  color: var(--cream);
+  color: white;
   padding: 8px;
   font-size: small;
 }
@@ -542,6 +542,21 @@ footer > div p {
   #gallery ul {
     grid-template-columns: 60% auto;
     grid-template-areas: "g1 g2" "g1 g3";
+  }
+}
+@media (min-width: 1440px) {
+  #gallery ul #g1 {
+    grid-area: g1;
+  }
+}
+@media (min-width: 1440px) {
+  #gallery ul #g2 {
+    grid-area: g2;
+  }
+}
+@media (min-width: 1440px) {
+  #gallery ul #g2 #g3 {
+    grid-area: g3;
   }
 }
 
