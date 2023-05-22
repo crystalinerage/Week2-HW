@@ -368,6 +368,11 @@ template {
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0px;
+}
+
 /* =============
     Buttons
 ============= */
@@ -397,34 +402,69 @@ textarea {
 ============= */
 header #logo-nav {
   background-color: var(--forestGreen);
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". logo-nav .";
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  margin: 0px;
+  height: 144px;
+}
+header #logo-nav img {
+  height: 50%;
+  color: white;
+  padding-right: 16px;
 }
 header #logo-nav > div {
   grid-area: logo-nav;
 }
 header #logo-nav > div h1 {
   color: var(--cream);
+  padding-bottom: 16px;
+  padding: 16px;
+  margin: 0px;
 }
 header #logo-nav > div p {
   color: var(--cream);
+  margin: 0px;
 }
 header #form-content {
-  background-color: var(--forestGreen);
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". search .";
+  padding: 16px 0px;
+}
+@media (min-width: 768px) {
+  header #form-content {
+    padding: 24px 0px;
+  }
 }
 header #form-content > div {
   background-color: var(--cream);
   grid-area: search;
+}
+header #form-content > div form {
+  display: flex;
+}
+header #form-content > div form input {
+  border: none;
+  border-bottom: 1px solid var(--teal);
+  width: 100%;
+  border-radius: 0px;
+  margin-right: 8px;
+}
+header #form-content > div form button {
+  border: none;
+  background-color: var(--lightPink);
+  border-radius: 5px;
+  padding: 12px 16px;
 }
 header #form-content > div h1 {
   color: var(--cream);
 }
 header #form-content > div p {
   color: var(--cream);
+}
+header #form-content > div a {
+  color: var(--darkTeal);
 }
 
 /* =============
@@ -463,6 +503,10 @@ footer > div p {
 /* =============
     hero
 ============= */
+#hero img {
+  font-size: 0;
+  display: block;
+}
 #hero section {
   display: grid;
   grid-template-columns: 16px auto 16px;
@@ -478,6 +522,7 @@ footer > div p {
 }
 #sub-hero .styles {
   background-color: var(--lightPink);
+  padding-bottom: 6px;
 }
 #sub-hero .styles h1 {
   color: white;
@@ -498,6 +543,7 @@ footer > div p {
 }
 #sub-hero .new {
   background-color: var(--dustyPink);
+  padding-bottom: 4px;
 }
 #sub-hero .new h1 {
   color: var(--cream);

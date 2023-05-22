@@ -3,6 +3,10 @@
 ============= */
 
 #hero{
+    img{
+        font-size: 0;
+        display: block;
+    }
     section{
         display: grid;
         grid-template-columns: 16px auto 16px;
@@ -24,6 +28,7 @@
 
         .styles{
             background-color: var(--lightPink);
+            padding-bottom: 6px;
             h1{
                 color: white;
                 padding: 8px;
@@ -48,7 +53,7 @@
 
         .new{
             background-color: var(--dustyPink);
-
+            padding-bottom: 4px;
             h1{
                 color: var(--cream);
                 padding: 8px;
