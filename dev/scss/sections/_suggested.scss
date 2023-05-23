@@ -12,7 +12,7 @@
         background-color: var(--forestGreen);
         display: grid;
         grid-template-columns: 60% 40%;
-        height: 117px;
+        height: 164px;
         padding: 16px;
         #text{
             display: flex;
@@ -28,6 +28,33 @@
                 background-color: var(--sage);
             }
         }
+
+       >div{
+           
+        }
+
+        #suggested-workman{
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            padding-bottom: 100%;
+            border-radius: 100%;
+            border: 3px solid white;
+            overflow: hidden;
+        background-image: url(img/gear5.jpg);
+        }
+
+        #suggested-urbanite{
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            padding-bottom: 100%;
+            border-radius: 100%;
+            border: 3px solid white;
+            overflow: hidden;
+            background-image: url(img/gear4.jpg);
+        }
+
         img{
             height: inherit;
         }
