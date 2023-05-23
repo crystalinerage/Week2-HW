@@ -16,6 +16,16 @@
     width: 100%;
 }
 
+.content-spacing-top{
+    margin-top: 16px;
+
+    @include md{
+        margin-top: 24px;
+    }
+    @include lg{
+        margin-top: 30px;
+    }
+}
 
 
 .show-large{
