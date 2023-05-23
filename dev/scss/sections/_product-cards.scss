@@ -3,14 +3,69 @@
 ============= */
 
 #product-cards{
-    background-color: var(--cream);
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". product-cards .";
+    padding-bottom: 32px;
 
     >div{
         grid-area: product-cards;
        text-align: justify;
+       display: grid;
+       gap: 16px;
+
+       @include md{
+        grid-area: product-cards;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+        "n1,n1,n2,n2"
+        "n3,n3,n4,n4"
+        "..n5,n5..";
+        align-items: center;
+        .card{
+            width: 320px;
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+        }
+       }
+
+       .card{
+        background-color: var(--cream);
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+     
+       }
+       .container {
+        padding: 16px;
+      }
+
+
+      #n1{
+        @include md{
+            grid-area: n1;
+        }
+      }
+      #n2{
+        @include md{
+            grid-area: n2;
+        }
+      }
+      #n3{
+        @include md{
+            grid-area: n3;
+        }
+      }
+      #n4{
+        @include md{
+            grid-area: n4;
+        }
+      }
+      #n5{
+        @include md{
+            grid-area: n5;
+        }
+      }
         }
      
 }
